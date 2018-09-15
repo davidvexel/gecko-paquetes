@@ -39,7 +39,7 @@ class App extends Component {
       queryStringAuth: true
     });
 
-    fetch('https://www.geckoexcursions.com/wp-json/wp/v2/tour?_embed&filter[cat]=1')
+    fetch('https://www.geckoexcursions.com/wp-json/wp/v2/tour?tourcat=198,199')
       .then(response => response.json())
       .then(tours => this.setState({ tours, loading: false }));
   }

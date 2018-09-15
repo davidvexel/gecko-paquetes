@@ -2,6 +2,7 @@
   "name": "gecko-experiencias-xcaret",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://www.geckoexcursions.com/experiencias/",
   "dependencies": {
     "antd": "^3.8.4",
     "babel-plugin-import": "^1.8.0",
